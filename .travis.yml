@@ -10,3 +10,6 @@ install:
 - sudo apt-get -y  install libelf-dev libstdc++-4.8-dev pandoc
 
 script: ./configure && make
+
+notifications:
+  slack: sungshin-it:9K69Z18QBC6SfzXt2zE16Epx
